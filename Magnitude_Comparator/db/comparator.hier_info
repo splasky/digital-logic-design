@@ -1,0 +1,83 @@
+|4bitscomparator
+Outless <= comparator:inst3.Outlt
+a0 => comparator:inst3.A
+b0 => comparator:inst3.B
+a1 => comparator:inst2.A
+b1 => comparator:inst2.B
+a2 => comparator:inst1.A
+b2 => comparator:inst1.B
+a3 => comparator:inst.A
+b3 => comparator:inst.B
+Outgrather <= comparator:inst3.Outgt
+Outequal <= comparator:inst3.Outeq
+GND <= <VCC>
+
+
+|4bitscomparator|comparator:inst3
+Outgt <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+gt => inst7.IN0
+B => inst5.IN0
+B => inst9.IN1
+B => inst12.IN1
+A => inst10.IN1
+A => inst.IN0
+A => inst12.IN0
+eq => inst6.IN1
+eq => inst11.IN1
+eq => inst13.IN1
+Outlt <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+lt => inst8.IN1
+Outeq <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitscomparator|comparator:inst2
+Outgt <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+gt => inst7.IN0
+B => inst5.IN0
+B => inst9.IN1
+B => inst12.IN1
+A => inst10.IN1
+A => inst.IN0
+A => inst12.IN0
+eq => inst6.IN1
+eq => inst11.IN1
+eq => inst13.IN1
+Outlt <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+lt => inst8.IN1
+Outeq <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitscomparator|comparator:inst1
+Outgt <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+gt => inst7.IN0
+B => inst5.IN0
+B => inst9.IN1
+B => inst12.IN1
+A => inst10.IN1
+A => inst.IN0
+A => inst12.IN0
+eq => inst6.IN1
+eq => inst11.IN1
+eq => inst13.IN1
+Outlt <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+lt => inst8.IN1
+Outeq <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|4bitscomparator|comparator:inst
+Outgt <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+gt => inst7.IN0
+B => inst5.IN0
+B => inst9.IN1
+B => inst12.IN1
+A => inst10.IN1
+A => inst.IN0
+A => inst12.IN0
+eq => inst6.IN1
+eq => inst11.IN1
+eq => inst13.IN1
+Outlt <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+lt => inst8.IN1
+Outeq <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+

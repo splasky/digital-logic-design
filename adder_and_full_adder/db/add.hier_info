@@ -1,0 +1,27 @@
+|full_adder
+SUM <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => add:inst.x
+B => add:inst.y
+C => add:inst1.y
+CARRY <= add:inst1.SUM
+COM <= <VCC>
+
+
+|full_adder|add:inst1
+CARRY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst1.IN0
+y => inst.IN1
+y => inst1.IN1
+SUM <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|add:inst
+CARRY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst1.IN0
+y => inst.IN1
+y => inst1.IN1
+SUM <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

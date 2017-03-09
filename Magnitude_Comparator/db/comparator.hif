@@ -1,0 +1,65 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+18
+1123
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+comparator
+# storage
+db|comparator.(0).cnf
+db|comparator.(0).cnf
+# case_insensitive
+# source_file
+comparator.bdf
+55f3271af1b84518af1a4e90724ad56c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+comparator:inst3
+comparator:inst2
+comparator:inst1
+comparator:inst
+}
+# macro_sequence
+
+# end
+# entity
+4bitscomparator
+# storage
+db|comparator.(1).cnf
+db|comparator.(1).cnf
+# case_insensitive
+# source_file
+4bitscomparator.bdf
+6a4d1997641204af19fdbd7155ac874
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

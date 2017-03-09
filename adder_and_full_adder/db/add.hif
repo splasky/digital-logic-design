@@ -1,0 +1,63 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+18
+1130
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+full_adder
+# storage
+db|add.(0).cnf
+db|add.(0).cnf
+# case_insensitive
+# source_file
+full_adder.bdf
+516262e9b278efdccb8f409e144274
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+add
+# storage
+db|add.(1).cnf
+db|add.(1).cnf
+# case_insensitive
+# source_file
+add.bdf
+ceabf42cf760e9d6711ef965ed9224fc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+add:inst1
+add:inst
+}
+# macro_sequence
+
+# end
+# complete
+
