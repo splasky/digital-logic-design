@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.100 ns
+From           : lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[1]
+To             : Z[7]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 75.76 MHz ( period = 13.200 ns )
+From           : lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[1]
+To             : lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[7]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

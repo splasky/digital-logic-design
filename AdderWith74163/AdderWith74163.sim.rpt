@@ -1,0 +1,247 @@
+Simulator report for AdderWith74163
+Thu Mar 23 10:09:25 2017
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 69 nodes     ;
+; Simulation Coverage         ;      84.21 % ;
+; Total Number of Transitions ; 4529         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; FLEX10K      ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                              ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+; Option                                                                                     ; Setting            ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+; Simulation mode                                                                            ; Functional         ; Timing        ;
+; Start time                                                                                 ; 0 ns               ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF               ;               ;
+; Vector input source                                                                        ; AdderWith74163.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                 ; On            ;
+; Check outputs                                                                              ; Off                ; Off           ;
+; Report simulation coverage                                                                 ; On                 ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                 ; On            ;
+; Display missing 1-value coverage report                                                    ; On                 ; On            ;
+; Display missing 0-value coverage report                                                    ; On                 ; On            ;
+; Detect setup and hold time violations                                                      ; Off                ; Off           ;
+; Detect glitches                                                                            ; Off                ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                ; Off           ;
+; Generate Signal Activity File                                                              ; Off                ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                 ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE         ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto               ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      84.21 % ;
+; Total nodes checked                                 ; 69           ;
+; Total output ports checked                          ; 76           ;
+; Total output ports with complete 1/0-value coverage ; 64           ;
+; Total output ports with no 1/0-value coverage       ; 10           ;
+; Total output ports with no 1-value coverage         ; 10           ;
+; Total output ports with no 0-value coverage         ; 12           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                    ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |AdderWith74163|x[3]                                                                                                 ; |AdderWith74163|x[3]                                                                                                 ; pin_out          ;
+; |AdderWith74163|x[2]                                                                                                 ; |AdderWith74163|x[2]                                                                                                 ; pin_out          ;
+; |AdderWith74163|x[1]                                                                                                 ; |AdderWith74163|x[1]                                                                                                 ; pin_out          ;
+; |AdderWith74163|x[0]                                                                                                 ; |AdderWith74163|x[0]                                                                                                 ; pin_out          ;
+; |AdderWith74163|inst7                                                                                                ; |AdderWith74163|inst7                                                                                                ; out0             ;
+; |AdderWith74163|CLK                                                                                                  ; |AdderWith74163|CLK                                                                                                  ; out              ;
+; |AdderWith74163|Y[4]                                                                                                 ; |AdderWith74163|Y[4]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[3]                                                                                                 ; |AdderWith74163|Y[3]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[2]                                                                                                 ; |AdderWith74163|Y[2]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[1]                                                                                                 ; |AdderWith74163|Y[1]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[0]                                                                                                 ; |AdderWith74163|Y[0]                                                                                                 ; pin_out          ;
+; |AdderWith74163|inst13                                                                                               ; |AdderWith74163|inst13                                                                                               ; out0             ;
+; |AdderWith74163|inst12                                                                                               ; |AdderWith74163|inst12                                                                                               ; out0             ;
+; |AdderWith74163|inst9                                                                                                ; |AdderWith74163|inst9                                                                                                ; out0             ;
+; |AdderWith74163|Z[6]                                                                                                 ; |AdderWith74163|Z[6]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[5]                                                                                                 ; |AdderWith74163|Z[5]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[4]                                                                                                 ; |AdderWith74163|Z[4]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[3]                                                                                                 ; |AdderWith74163|Z[3]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[2]                                                                                                 ; |AdderWith74163|Z[2]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[1]                                                                                                 ; |AdderWith74163|Z[1]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[0]                                                                                                 ; |AdderWith74163|Z[0]                                                                                                 ; pin_out          ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[6]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[6]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[5]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[5]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[4]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[4]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[3]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[3]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[2]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[2]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[1]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[1]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~20                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~20                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~21                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~21                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~22                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~22                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~23                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~23                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~24                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~24                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[6] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[6] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[5] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[5]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[5] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[5] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[4] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[4]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[4] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[4] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[3] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[3]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[3] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[3] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[2] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[2]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[2] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[2] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[1] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[1]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[1] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[1] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[0] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[0]      ; cout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[0] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[0] ; sout             ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[4]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[4]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[3]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[2]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[1]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[1]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[0]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[0]                                                    ; regout           ;
+; |AdderWith74163|74163:inst|f74163:sub|134                                                                            ; |AdderWith74163|74163:inst|f74163:sub|134                                                                            ; regout           ;
+; |AdderWith74163|74163:inst|f74163:sub|137                                                                            ; |AdderWith74163|74163:inst|f74163:sub|137                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|131                                                                            ; |AdderWith74163|74163:inst|f74163:sub|131                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|117                                                                            ; |AdderWith74163|74163:inst|f74163:sub|117                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|122                                                                            ; |AdderWith74163|74163:inst|f74163:sub|122                                                                            ; regout           ;
+; |AdderWith74163|74163:inst|f74163:sub|126                                                                            ; |AdderWith74163|74163:inst|f74163:sub|126                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|120                                                                            ; |AdderWith74163|74163:inst|f74163:sub|120                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|106                                                                            ; |AdderWith74163|74163:inst|f74163:sub|106                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|111                                                                            ; |AdderWith74163|74163:inst|f74163:sub|111                                                                            ; regout           ;
+; |AdderWith74163|74163:inst|f74163:sub|115                                                                            ; |AdderWith74163|74163:inst|f74163:sub|115                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|109                                                                            ; |AdderWith74163|74163:inst|f74163:sub|109                                                                            ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|74                                                                             ; |AdderWith74163|74163:inst|f74163:sub|74                                                                             ; out0             ;
+; |AdderWith74163|74163:inst|f74163:sub|34                                                                             ; |AdderWith74163|74163:inst|f74163:sub|34                                                                             ; regout           ;
+; |AdderWith74163|74163:inst|f74163:sub|68                                                                             ; |AdderWith74163|74163:inst|f74163:sub|68                                                                             ; out0             ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |AdderWith74163|Y[7]                                                                                                 ; |AdderWith74163|Y[7]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[6]                                                                                                 ; |AdderWith74163|Y[6]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[7]                                                                                                 ; |AdderWith74163|Z[7]                                                                                                 ; pin_out          ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[7]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[7]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~18                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~18                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~19                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~19                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[7] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[7] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[6] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[6]      ; cout             ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[7]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[7]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[6]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[6]                                                    ; regout           ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |AdderWith74163|Y[7]                                                                                                 ; |AdderWith74163|Y[7]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[6]                                                                                                 ; |AdderWith74163|Y[6]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Y[5]                                                                                                 ; |AdderWith74163|Y[5]                                                                                                 ; pin_out          ;
+; |AdderWith74163|Z[7]                                                                                                 ; |AdderWith74163|Z[7]                                                                                                 ; pin_out          ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[7]                    ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|unreg_res_node[7]                    ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~18                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~18                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~19                                 ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|_~19                                 ; out0             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[7] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[7] ; sout             ;
+; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cs_buffer[6] ; |AdderWith74163|lpmaddsub:inst3|lpm_add_sub:lpm_add_sub_component|addcore:adder|a_csnbuffer:result_node|cout[6]      ; cout             ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[7]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[7]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[6]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[6]                                                    ; regout           ;
+; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[5]                                                    ; |AdderWith74163|lpmflipflop:inst4|lpm_ff:lpm_ff_component|dffs[5]                                                    ; regout           ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Thu Mar 23 10:09:25 2017
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off AdderWith74163 -c AdderWith74163
+Info: Using vector source file "C:/Documents and Settings/User/орн▒/AdderWith74163/AdderWith74163.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      84.21 %
+Info: Number of transitions in simulation is 4529
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 112 megabytes
+    Info: Processing ended: Thu Mar 23 10:09:25 2017
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

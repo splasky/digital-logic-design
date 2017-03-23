@@ -1,0 +1,132 @@
+|multiple
+Z[0] <= lpmmult2:inst.result[0]
+Z[1] <= lpmmult2:inst.result[1]
+Z[2] <= lpmmult2:inst.result[2]
+Z[3] <= lpmmult2:inst.result[3]
+Z[4] <= lpmmult2:inst.result[4]
+Z[5] <= lpmmult2:inst.result[5]
+Z[6] <= lpmmult2:inst.result[6]
+Z[7] <= lpmmult2:inst.result[7]
+Z[8] <= lpmmult2:inst.result[8]
+Z[9] <= lpmmult2:inst.result[9]
+Z[10] <= lpmmult2:inst.result[10]
+Z[11] <= lpmmult2:inst.result[11]
+Z[12] <= lpmmult2:inst.result[12]
+Z[13] <= lpmmult2:inst.result[13]
+Z[14] <= lpmmult2:inst.result[14]
+Z[15] <= lpmmult2:inst.result[15]
+X[0] => lpmmult2:inst.dataa[0]
+X[1] => lpmmult2:inst.dataa[1]
+X[2] => lpmmult2:inst.dataa[2]
+X[3] => lpmmult2:inst.dataa[3]
+X[4] => lpmmult2:inst.dataa[4]
+X[5] => lpmmult2:inst.dataa[5]
+X[6] => lpmmult2:inst.dataa[6]
+X[7] => lpmmult2:inst.dataa[7]
+Y[0] => lpmmult2:inst.datab[0]
+Y[1] => lpmmult2:inst.datab[1]
+Y[2] => lpmmult2:inst.datab[2]
+Y[3] => lpmmult2:inst.datab[3]
+Y[4] => lpmmult2:inst.datab[4]
+Y[5] => lpmmult2:inst.datab[5]
+Y[6] => lpmmult2:inst.datab[6]
+Y[7] => lpmmult2:inst.datab[7]
+
+
+|multiple|lpmmult2:inst
+dataa[0] => lpm_mult:lpm_mult_component.dataa[0]
+dataa[1] => lpm_mult:lpm_mult_component.dataa[1]
+dataa[2] => lpm_mult:lpm_mult_component.dataa[2]
+dataa[3] => lpm_mult:lpm_mult_component.dataa[3]
+dataa[4] => lpm_mult:lpm_mult_component.dataa[4]
+dataa[5] => lpm_mult:lpm_mult_component.dataa[5]
+dataa[6] => lpm_mult:lpm_mult_component.dataa[6]
+dataa[7] => lpm_mult:lpm_mult_component.dataa[7]
+datab[0] => lpm_mult:lpm_mult_component.datab[0]
+datab[1] => lpm_mult:lpm_mult_component.datab[1]
+datab[2] => lpm_mult:lpm_mult_component.datab[2]
+datab[3] => lpm_mult:lpm_mult_component.datab[3]
+datab[4] => lpm_mult:lpm_mult_component.datab[4]
+datab[5] => lpm_mult:lpm_mult_component.datab[5]
+datab[6] => lpm_mult:lpm_mult_component.datab[6]
+datab[7] => lpm_mult:lpm_mult_component.datab[7]
+result[0] <= lpm_mult:lpm_mult_component.result[0]
+result[1] <= lpm_mult:lpm_mult_component.result[1]
+result[2] <= lpm_mult:lpm_mult_component.result[2]
+result[3] <= lpm_mult:lpm_mult_component.result[3]
+result[4] <= lpm_mult:lpm_mult_component.result[4]
+result[5] <= lpm_mult:lpm_mult_component.result[5]
+result[6] <= lpm_mult:lpm_mult_component.result[6]
+result[7] <= lpm_mult:lpm_mult_component.result[7]
+result[8] <= lpm_mult:lpm_mult_component.result[8]
+result[9] <= lpm_mult:lpm_mult_component.result[9]
+result[10] <= lpm_mult:lpm_mult_component.result[10]
+result[11] <= lpm_mult:lpm_mult_component.result[11]
+result[12] <= lpm_mult:lpm_mult_component.result[12]
+result[13] <= lpm_mult:lpm_mult_component.result[13]
+result[14] <= lpm_mult:lpm_mult_component.result[14]
+result[15] <= lpm_mult:lpm_mult_component.result[15]
+
+
+|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component
+dataa[0] => mult_vsm:auto_generated.dataa[0]
+dataa[1] => mult_vsm:auto_generated.dataa[1]
+dataa[2] => mult_vsm:auto_generated.dataa[2]
+dataa[3] => mult_vsm:auto_generated.dataa[3]
+dataa[4] => mult_vsm:auto_generated.dataa[4]
+dataa[5] => mult_vsm:auto_generated.dataa[5]
+dataa[6] => mult_vsm:auto_generated.dataa[6]
+dataa[7] => mult_vsm:auto_generated.dataa[7]
+datab[0] => mult_vsm:auto_generated.datab[0]
+datab[1] => mult_vsm:auto_generated.datab[1]
+datab[2] => mult_vsm:auto_generated.datab[2]
+datab[3] => mult_vsm:auto_generated.datab[3]
+datab[4] => mult_vsm:auto_generated.datab[4]
+datab[5] => mult_vsm:auto_generated.datab[5]
+datab[6] => mult_vsm:auto_generated.datab[6]
+datab[7] => mult_vsm:auto_generated.datab[7]
+sum[0] => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mult_vsm:auto_generated.result[0]
+result[1] <= mult_vsm:auto_generated.result[1]
+result[2] <= mult_vsm:auto_generated.result[2]
+result[3] <= mult_vsm:auto_generated.result[3]
+result[4] <= mult_vsm:auto_generated.result[4]
+result[5] <= mult_vsm:auto_generated.result[5]
+result[6] <= mult_vsm:auto_generated.result[6]
+result[7] <= mult_vsm:auto_generated.result[7]
+result[8] <= mult_vsm:auto_generated.result[8]
+result[9] <= mult_vsm:auto_generated.result[9]
+result[10] <= mult_vsm:auto_generated.result[10]
+result[11] <= mult_vsm:auto_generated.result[11]
+result[12] <= mult_vsm:auto_generated.result[12]
+result[13] <= mult_vsm:auto_generated.result[13]
+result[14] <= mult_vsm:auto_generated.result[14]
+result[15] <= mult_vsm:auto_generated.result[15]
+
+
+|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated
+datab[0] => cs2a[0].SUM_IN
+datab[1] => cs1a[0].SUM_IN
+datab[1] => cs1a[0].CIN
+datab[1] => cs2a[0].CIN
+result[0] <= sft11a[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= sft11a[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= sft11a[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= sft11a[3].DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= sft11a[4].DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= sft11a[5].DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= sft11a[6].DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= sft11a[7].DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= sft11a[8].DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= sft11a[9].DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= sft11a[10].DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= sft11a[11].DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= sft11a[12].DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= sft11a[13].DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= sft11a[14].DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= sft11a[15].DB_MAX_OUTPUT_PORT_TYPE
+
+

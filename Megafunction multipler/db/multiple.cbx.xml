@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="multiple">
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated|lpm_add_sub:op_1" CBX_FILE_NAME="add_sub_gah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated|lpm_add_sub:op_3" CBX_FILE_NAME="add_sub_09h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated|lpm_add_sub:op_5" CBX_FILE_NAME="add_sub_jah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_vsm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated|lpm_add_sub:op_2" CBX_FILE_NAME="add_sub_dah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multiple|lpmmult2:inst|lpm_mult:lpm_mult_component|mult_vsm:auto_generated|lpm_add_sub:op_4" CBX_FILE_NAME="add_sub_gch.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
