@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.456 ns
+Actual Time    : 18.800 ns
 From           : 74163:inst|f74163:sub|122
-To             : e
+To             : a
 From Clock     : Clock
 To Clock       : --
 Failed Paths   : 0
@@ -15,7 +15,7 @@ Failed Paths   : 0
 Type           : Clock Setup: 'Clock'
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+Actual Time    : 113.64 MHz ( period = 8.800 ns )
 From           : 74163:inst|f74163:sub|134
 To             : 74163:inst|f74163:sub|122
 From Clock     : Clock

@@ -1,12 +1,16 @@
 |bcd
-a <= 7447:inst1.OA
+a <= inst42.DB_MAX_OUTPUT_PORT_TYPE
 Clock => 74163:inst.CLK
-b <= 7447:inst1.OB
-c <= 7447:inst1.OC
-d <= 7447:inst1.OD
-e <= 7447:inst1.OE
-f <= 7447:inst1.OF
-g <= 7447:inst1.OG
+b <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+gnd <= <VCC>
+DE1 <= <GND>
+DE2 <= <GND>
+DE3 <= <GND>
 
 
 |bcd|7447:inst1

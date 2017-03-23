@@ -1,12 +1,12 @@
 Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-7
-3331
+18
+1123
 OFF
 OFF
 OFF
 ON
 ON
-ON
+OFF
 FV_OFF
 Level2
 0
@@ -25,7 +25,7 @@ db|bcd.(1).cnf
 db|bcd.(1).cnf
 # case_insensitive
 # source_file
-..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|7447.bdf
+c:|altera|90sp2|quartus|libraries|others|maxplus2|7447.bdf
 b866247e9e4e23608138281b57c7e83
 26
 # internal_option {
@@ -45,12 +45,12 @@ db|bcd.(2).cnf
 db|bcd.(2).cnf
 # case_insensitive
 # source_file
-..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|74163.tdf
+c:|altera|90sp2|quartus|libraries|others|maxplus2|74163.tdf
 f24339fa58554a6dd21256ad79b3e
 7
 # user_parameter {
 DEVICE_FAMILY
-Stratix II
+FLEX10K
 PARAMETER_UNKNOWN
 USR
 AUTO_CARRY_CHAINS
@@ -112,7 +112,7 @@ CLRN
 2
 }
 # include_file {
-..|..|..|..|altera|90sp2|quartus|libraries|megafunctions|aglobal.inc
+c:|altera|90sp2|quartus|libraries|megafunctions|aglobal.inc
 99832fdf63412df51d7531202d74e75
 }
 # hierarchies {
@@ -128,7 +128,7 @@ db|bcd.(3).cnf
 db|bcd.(3).cnf
 # case_insensitive
 # source_file
-..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|f74163.bdf
+c:|altera|90sp2|quartus|libraries|others|maxplus2|f74163.bdf
 4b5be968de84ee6bdb36d12e11b1819a
 26
 # internal_option {
@@ -142,6 +142,23 @@ AUTO
 
 # end
 # entity
+74138
+# storage
+db|bcd.(4).cnf
+db|bcd.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|90sp2|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
 bcd
 # storage
 db|bcd.(0).cnf
@@ -149,7 +166,7 @@ db|bcd.(0).cnf
 # case_insensitive
 # source_file
 bcd.bdf
-aea87a6ed2553f350a48b34dc7d3856
+e747eda823c820ab3f4e4c68b3fa1745
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
