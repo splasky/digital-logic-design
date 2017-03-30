@@ -1,0 +1,10 @@
+Fitter Status : Successful - Thu Mar 30 10:14:48 2017
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : Q1
+Top-level Entity Name : Q1
+Family : FLEX10K
+Device : EPF10K10TC144-4
+Timing Models : Final
+Total logic elements : 2 / 576 ( < 1 % )
+Total pins : 7 / 102 ( 7 % )
+Total memory bits : 0 / 6,144 ( 0 % )

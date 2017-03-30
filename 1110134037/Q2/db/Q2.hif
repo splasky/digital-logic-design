@@ -1,0 +1,63 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+18
+1123
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Q2
+# storage
+db|Q2.(0).cnf
+db|Q2.(0).cnf
+# case_insensitive
+# source_file
+Q2.bdf
+a69b668e706a3e91e36c5efa6139a0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+halfadder
+# storage
+db|Q2.(1).cnf
+db|Q2.(1).cnf
+# case_insensitive
+# source_file
+halfadder.bdf
+85e013ad6df32254d3c680aa10283ee5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+halfadder:inst8
+halfadder:inst
+}
+# macro_sequence
+
+# end
+# complete
+
